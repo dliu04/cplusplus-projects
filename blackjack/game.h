@@ -13,7 +13,8 @@ private:
     vector <int> player_hand;
     
 public:
-    int deal_cards(vector <int>);
+    vector <int> get_hands;
+    vector <int> deal_cards(vector <int>);
     void play_game(int);
 };
 
