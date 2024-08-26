@@ -21,6 +21,14 @@ void play_game(int money){
     // Ask to play again
 }
 
+vector <int> create_hand(){
+    // Create a vector to hold the player's hand
+    vector <int> hand;
+
+    return hand;
+}
+
+
 vector <int> deal_cards(vector <int> hand){
     // Deal two cards to the player
     for (int i = 0; i < 2; i++){
